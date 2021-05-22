@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 Resources:
   - TargetService:
-      Type: AWS::ECS::Service
+      Type: AWS::EC2::Service
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
